@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #443f6e;
+    background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2024/06/kingdom-hearts-all-symbols-explained.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 1.2;
+    padding: 20px;
+}
+h1 {
+    color: #bf4e64;
+    text-align: center;
+}
+h2{
+    color:#e06d56;
+    margin-top: 20px;
+    text-align: center;
+}
+h3 {
+    color: #e8ab2c;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+h4 {
+    color: #e06d56;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+p {
+    color: black;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1.1em;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
