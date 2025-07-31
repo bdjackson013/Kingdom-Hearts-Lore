@@ -1,0 +1,151 @@
+h1 {
+    color: purple;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    transition: transform 0.3s ease;
+    transform: translateY(0);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: purple;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: white;
+    margin: 10px 20px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    transform: translateY(0);
+}
+
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(https://static.wikia.nocookie.net/disney/images/d/d2/Kingdom_hearts.png/revision/latest?cb=20190216192820);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+    padding: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: purple;
+    text-decoration: underline;
+    text-decoration-color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+li:active {
+    transform: translateY(0);
+    box-shadow: none;
+    background-color: rgba(223, 248, 5, 0.929);
+    color: white;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+details {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px grey;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
