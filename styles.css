@@ -1,0 +1,58 @@
+/*
+ * Styles for the Characters page
+ */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/86/dd/0a/86dd0a603158804d6f32342ff4c5977e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+h1 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.0em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-weight: normal;
+    font-style: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    display: block;;
+}
+
+li {
+    background: powderblue;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px transparent plum;
+    border-radius: 5px;
+    transition: background-color 0.9s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
